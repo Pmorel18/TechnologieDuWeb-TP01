@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Novis : une plateforme simple pour gérer vos actifs et visualiser vos transactions." />
     <title>Novis | Propulsez votre flux de travail</title>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header>
@@ -31,13 +36,13 @@
             <div class="badge-new">
                 Nouveauté : Version 2.0 disponible
             </div>
-            
+
             <h1 class="hero-title">
                 Propulsez votre <br> flux de travail.
             </h1>
-            
+
             <p class="hero-subtitle">
-                Novis centralise vos outils, automatise vos tâches et libère votre créativité. 
+                Novis centralise vos outils, automatise vos tâches et libère votre créativité.
                 Le tout dans une interface conçue pour la performance.
             </p>
 
@@ -50,17 +55,17 @@
                 <div class="preview-glow"></div>
                 <div class="preview-card">
                     <div class="preview-content">
-                         <span>Aperçu de l'interface Novis</span>
+                        <span>Aperçu de l'interface Novis</span>
                     </div>
                 </div>
             </div>
         </section>
 
-       
+
         <!-- Container -->
         <section class="dashboard-section">
             <h2 class="section-title">Aperçu de votre dashboard</h2>
-            
+
             <div class="dashboard-grid">
                 <div class="dashboard-card balance">
                     <h3>Solde Total</h3>
@@ -102,6 +107,55 @@
                 </div>
             </div>
         </section>
+
+        <section class="assets-section" id="assets">
+            <h2 class="section-title">Tableau des actifs</h2>
+
+            <table class="assets-table">
+                <thead>
+                    <tr>
+                        <th>Actif</th>
+                        <th>Type</th>
+                        <th>Quantité</th>
+                        <th>Prix actuel</th>
+                        <th>Variation</th>
+                        <th>Valeur totale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>Action</td>
+                        <td>12</td>
+                        <td>189,40 €</td>
+                        <td class="text-positive">+2,35%</td>
+                        <td>2 272,80 €</td>
+                    </tr>
+                    <tr>
+                        <td>Bitcoin</td>
+                        <td>Crypto</td>
+                        <td>0,18</td>
+                        <td>42 300,00 €</td>
+                        <td class="text-negative">-1,12%</td>
+                        <td>7 614,00 €</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft</td>
+                        <td>Action</td>
+                        <td>8</td>
+                        <td>372,10 €</td>
+                        <td class="text-positive">+0,78%</td>
+                        <td>2 976,80 €</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"><strong>Total</strong></td>
+                        <td><strong>12 863,60 €</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
     </main>
 
     <footer class="site-footer">
@@ -109,4 +163,5 @@
     </footer>
 
 </body>
+
 </html>
