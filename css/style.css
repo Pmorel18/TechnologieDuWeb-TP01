@@ -150,3 +150,43 @@
 .transaction-amount {
     font-weight: 700;
 }
+
+
+/* Tableau des actifs */
+.assets-section {
+    max-width: 1280px;
+    margin: 4rem auto;
+    padding: 0 1.5rem;
+}
+
+.assets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    color: #fff;
+}
+
+.assets-table th,
+.assets-table td {
+    padding: 0.9rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.assets-table thead th {
+    font-weight: 700;
+    color: #d4d4d8;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.assets-table tfoot td {
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.text-positive { color: #4ade80; }
+.text-negative { color: #f87171; }
