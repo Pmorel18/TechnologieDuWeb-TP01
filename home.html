@@ -1,25 +1,112 @@
-<html>
-<header>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novis | Propulsez votre flux de travail</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" href="css/style.css" />
-        <title>Novis</title>
-    </head>
-
-    <body>
-        <h1>Novis</h1>
-        <nav>
-            <ul>
-                <li><a href="about.html">Connexion</a></li>
-                <li><a href="contact.html">Commencer</a></li>
+    <header>
+        <nav class="navbar">
+            <div class="logo">NOVIS<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#plateforme">Plateforme</a></li>
+                <li><a href="#features">Fonctionnalités</a></li>
+                <li><a href="#">Sécurité</a></li>
+                <li><a href="#">Tarifs</a></li>
             </ul>
-</header>
+            <div class="nav-actions">
+                <a href="#" class="btn-login">Connexion</a>
+                <a href="#" class="btn btn-cta">Commencer</a>
+            </div>
+        </nav>
+    </header>
 
-<footer>
-    <p>Contact : <a href="mailto:contact@novis.com">
+    <main>
+        <section class="hero-section" id="plateforme">
+            <div class="badge-new">
+                Nouveauté : Version 2.0 disponible
+            </div>
+            
+            <h1 class="hero-title">
+                Propulsez votre <br> flux de travail.
+            </h1>
+            
+            <p class="hero-subtitle">
+                Novis centralise vos outils, automatise vos tâches et libère votre créativité. 
+                Le tout dans une interface conçue pour la performance.
+            </p>
 
-    <p>Copyright © 2024 ThePoloKiller44. All rights reserved.</p>
-</footer>
+            <div class="btn-group">
+                <button class="btn btn-primary">Démarrer maintenant</button>
+                <button class="btn btn-secondary">Réserver une démo</button>
+            </div>
 
+            <div class="preview-container">
+                <div class="preview-glow"></div>
+                <div class="preview-card">
+                    <div class="preview-content">
+                         <span>Aperçu de l'interface Novis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <!-- Container -->
+        <section class="dashboard-section">
+            <h2 class="section-title">Aperçu de votre dashboard</h2>
+            
+            <div class="dashboard-grid">
+                <div class="dashboard-card balance">
+                    <h3>Solde Total</h3>
+                    <p class="balance-amount">12 450,00 €</p>
+                    <span class="balance-change">+3.2% ce mois</span>
+                </div>
+
+                <div class="dashboard-card assets">
+                    <h3>Répartition des Actifs</h3>
+                    <div class="chart-placeholder">
+                        <div class="pie-chart">
+                            <div class="slice slice-1"></div>
+                            <div class="slice slice-2"></div>
+                            <div class="slice slice-3"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-card transactions">
+                    <h3>Dernières Transactions</h3>
+                    <ul class="transaction-list">
+                        <li>
+                            <span class="transaction-name">Adobe Creative Cloud</span>
+                            <span class="transaction-amount">-52,99 €</span>
+                        </li>
+                        <li>
+                            <span class="transaction-name">Salaire Mensuel</span>
+                            <span class="transaction-amount">+2 800,00 €</span>
+                        </li>
+                        <li>
+                            <span class="transaction-name">Netflix</span>
+                            <span class="transaction-amount">-13,49 €</span>
+                        </li>
+                        <li>
+                            <span class="transaction-name">Freelance Project</span>
+                            <span class="transaction-amount">+450,00 €</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 Novis Inc. Tous droits réservés.</p>
+    </footer>
+
+</body>
 </html>

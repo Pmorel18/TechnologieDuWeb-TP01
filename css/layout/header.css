@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: var(--color-bg-dark); 
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.logo {
+    font-size: clamp(1rem, 1.5rem, 3rem);
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    color: white;
+}
+
+.logo span {
+    color: var(--color-primary);
+}
+
+.nav-links {
+    display: none;
+    gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .nav-links { display: flex; }
+}
+
+.nav-links a {
+    font-size: clamp(0.5rem ,0.875rem, 1rem);
+    font-weight: 500;
+    color: #a1a1aa;
+}
+
+.nav-links a:hover {
+    color: var(--color-primary);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

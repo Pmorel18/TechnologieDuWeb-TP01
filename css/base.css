@@ -1,0 +1,40 @@
+:root {
+    --color-primary: #F28705;    
+    --color-primary-dark: #8C4E03; 
+    --color-bg-deep: #402401;     
+    
+    --color-text-light: #F2F2F2;   
+    --color-bg-dark: #262626;     
+    
+   
+    --border-radius-sm: 8px;
+    --border-radius-lg: 16px;
+    --transition-smooth: all 0.3s ease;
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--color-bg-deep);
+    color: var(--color-text-light);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+

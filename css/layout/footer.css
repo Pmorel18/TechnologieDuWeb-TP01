@@ -1,0 +1,12 @@
+.site-footer {
+    border-top: 1px solid var(--color-bg-dark);
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+    text-align: center;
+    color: #71717a;
+    font-size: clamp(0.5rem, 0.875rem, 1rem);
+}
+
+.site-footer p {
+    margin-bottom: 1rem;
+}
